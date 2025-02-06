@@ -1,0 +1,54 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner-content {
+    max-width: 600px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #61dafb;
+    color: #282c34;
+    border-radius: 5px;
+  }
+  
+  .contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #282c34;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #21a1f1;
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      padding: 10px;
+    }
+  
+    .skills ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }

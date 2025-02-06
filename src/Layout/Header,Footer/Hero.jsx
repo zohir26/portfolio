@@ -6,8 +6,9 @@ import profile from '../../assets/banner img.png';
 
 const Hero = () => {
   return (
-    <div className=" flex items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-10  z-10 relative  ">
-      <div className=" flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 items-center">
+    <div className="w-full h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-10 z-10 relative">
+  <div className="w-full max-w-7xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 items-center px-6">
+
         
         {/* Profile Image */}
         <img

@@ -3,7 +3,7 @@ import code from "../assets/carbon.png";
 
 const About = () => {
   return (
-    <div className="flex items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-16 px-6">
+    <div className="h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-16 px-6">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
         
         {/* Left Section - Code Snippet Image */}

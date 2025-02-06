@@ -13,6 +13,9 @@ import firebase from "../assets/icons8-firebase-96.png";
 import node from "../assets/icons8-node-js-96.png";
 import express from "../assets/icons8-express-js-96.png";
 import mongodb from "../assets/icons8-mongo-db-96.png";
+import R from "../assets/icons8-r-96.png";
+import python from "../assets/icons8-python-96.png";
+
 
 const Skills = () => {
   // Slider settings
@@ -59,7 +62,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
           {/* Mapping through skill icons */}
-          {[html, css, tailwindcss, JavaScript, react, firebase, node, express, mongodb].map(
+          {[html, css, tailwindcss, JavaScript, react, firebase, node, express, mongodb,R, python].map(
             (skill, index) => (
               <div key={index} className="flex justify-center">
                 <img

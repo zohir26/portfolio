@@ -4,6 +4,8 @@ import Navbar from './Layout/Header,Footer/Navbar'
 import Hero from './Layout/Header,Footer/Hero'
 import About from './Layout/About'
 import Skills from './Layout/Skills'
+import Experience from './Layout/Experience'
+import Education from './Layout/Education'
 function App() {
  
 
@@ -14,6 +16,8 @@ function App() {
       <Hero></Hero>
       <About></About>
       <Skills></Skills>
+      <Experience></Experience>
+      <Education></Education>
      </div>
     </>
   )

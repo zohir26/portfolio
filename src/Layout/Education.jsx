@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 const Education = () => {
   const [education, setEducation] = useState([]);
@@ -17,17 +18,19 @@ const Education = () => {
         🎓 My Education
       </h2>
 
-      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-1 gap-8">
         {education.map((edu, index) => (
-          <div
+          <motion.div
             key={index}
-            className="bg-gray-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl border border-gray-700"
+            whileHover={{ scale: 1.05 }} // Scale up on hover
+            transition={{ type: "spring", stiffness: 200, damping: 10 }} // Smooth animation
+            className="bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700"
           >
             <h3 className="text-2xl font-semibold text-blue-400">{edu.institution}</h3>
             <p className="text-lg text-gray-300 mt-2">{edu.degree}</p>
             <p className="text-gray-400 mt-1">{edu.year}</p>
             <p className="text-pink-400 font-bold mt-2">{edu.result}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

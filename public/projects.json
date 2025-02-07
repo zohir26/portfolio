@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "image": "https://i.ibb.co.com/whv7sK8B/game-review.png",
+        "liveLink": "https://game-review-5c3bc.firebaseapp.com/",
+        "projectName": "Game Review",
+        "tools": ["React", "Node.js", "Express", "MongoDB"],
+        "description": "Game Review Hub is a dynamic web application built with React that allows users to add, update, and delete reviews for different games. Users can sign in with Firebase authentication, ensuring a secure and personalized experience. The platform provides an intuitive interface for gamers to share their opinions and discover reviews from others."
+      },
+      {
+        "image": "https://i.ibb.co.com/3ZhT1DM/car-rental.png",
+        "liveLink": "https://car-rental-f7654.web.app/",
+        "projectName": "Car Rental",
+        "tools": ["React", "Node.js", "MongoDB", "Firebase", "JavaScript"],
+        "description": "A full stack car rental website where users can browse and book cars for rent, while business owners can register and list their vehicles. The platform facilitates seamless booking, vehicle management, and user authentication for both renters and car providers."
+      },
+      {
+        "image": "https://i.ibb.co.com/S4BfJ3LJ/Screenshot-12.png",
+        "liveLink": "https://couponpro-fd6de.firebaseapp.com/",
+        "projectName": "Coupon PRO",
+        "tools": ["React", "Firebase", "JavaScript"],
+        "description": "Discover and collect exclusive coupons from top brands all in one place. Browse a wide range of discounts, save your favorite coupons, and apply them directly on the brand’s website to enjoy instant savings. Start saving today with CouponHub – your ultimate destination for deals!"
+      }
+    ]
+  }

@@ -107,13 +107,13 @@ const Contact = () => {
         
       </div>
       <div className="mt-6 flex flex-col  text-center space-y-4 sm:space-y-0 sm:flex-col sm:gap-6 justify-start items-start">
-          <p className="flex justify-center items-center gap-2 text-2xl hover:text-[#DB4437] transition-colors">
+          <p className="flex justify-center items-center gap-2 text-xl lg:text-2xl hover:text-[#DB4437] transition-colors">
             <MdEmail className="text-[#DB4437]"/> mdzohirhossain500@gmail.com
           </p>
-          <p className="flex justify-center items-center gap-2 text-2xl hover:text-[#25D366] transition-colors">
+          <p className="flex justify-center items-center gap-2 text-xl lg:text-2xl hover:text-[#25D366] transition-colors">
             <FaWhatsapp className="text-[#25D366]"/> +88-01521763711
           </p>
-          <p className="flex justify-center items-center gap-2 text-2xl hover:text-[#FF6347] transition-colors">
+          <p className="flex justify-center items-center gap-2 text-xl lg:text-2xl hover:text-[#FF6347] transition-colors">
             <FaLocationArrow className="text-[#FF6347] hover:text-[#ff4500] transition-colors"/> Chattogram, Bangladesh
           </p>
         </div>

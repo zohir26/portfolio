@@ -13,7 +13,7 @@ const Education = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-16 px-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-20 lg:py-16 px-6">
       <h2 className="text-4xl font-bold text-center mb-12 text-pink-400">
         🎓 My Education
       </h2>

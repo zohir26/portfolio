@@ -50,19 +50,19 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-16">
-     <h2 className="text-5xl font-extrabold text-transparent bg-clip-text 
+    <div className="w-full bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-16 mt-0 lg:mt-20">
+      <h2 className="text-5xl font-extrabold text-transparent bg-clip-text 
                bg-gradient-to-r from-pink-500 to-purple-600 
                text-center mb-10 drop-shadow-lg 
                animate-fadeIn">
-  🚀 My <span className="text-white">Skills</span> 🚀
-</h2>
+        🚀 My <span className="text-white">Skills</span> 🚀
+      </h2>
 
       {/* Skill Slider */}
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
           {/* Mapping through skill icons */}
-          {[html, css, tailwindcss, JavaScript, react, firebase, node, express, mongodb,R, python].map(
+          {[html, css, tailwindcss, JavaScript, react, firebase, node, express, mongodb, R, python].map(
             (skill, index) => (
               <div key={index} className="flex justify-center">
                 <img

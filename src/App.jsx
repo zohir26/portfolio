@@ -8,6 +8,7 @@ import Experience from './Layout/Experience'
 import Education from './Layout/Education'
 import Projects from './Layout/Projects'
 import Contact from './Layout/Contact'
+import Footer from './Layout/Header,Footer/Footer'
 function App() {
  
 
@@ -22,6 +23,7 @@ function App() {
       <Education></Education>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
      </div>
     </>
   )

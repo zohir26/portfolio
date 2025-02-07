@@ -1,25 +1,37 @@
 {
-    "projects": [
-      {
-        "image": "https://i.ibb.co.com/whv7sK8B/game-review.png",
-        "liveLink": "https://game-review-5c3bc.firebaseapp.com/",
-        "projectName": "Game Review",
-        "tools": ["React", "Node.js", "Express", "MongoDB"],
-        "description": "Game Review Hub is a dynamic web application built with React that allows users to add, update, and delete reviews for different games. Users can sign in with Firebase authentication, ensuring a secure and personalized experience. The platform provides an intuitive interface for gamers to share their opinions and discover reviews from others."
-      },
-      {
-        "image": "https://i.ibb.co.com/3ZhT1DM/car-rental.png",
-        "liveLink": "https://car-rental-f7654.web.app/",
-        "projectName": "Car Rental",
-        "tools": ["React", "Node.js", "MongoDB", "Firebase", "JavaScript"],
-        "description": "A full stack car rental website where users can browse and book cars for rent, while business owners can register and list their vehicles. The platform facilitates seamless booking, vehicle management, and user authentication for both renters and car providers."
-      },
-      {
-        "image": "https://i.ibb.co.com/S4BfJ3LJ/Screenshot-12.png",
-        "liveLink": "https://couponpro-fd6de.firebaseapp.com/",
-        "projectName": "Coupon PRO",
-        "tools": ["React", "Firebase", "JavaScript"],
-        "description": "Discover and collect exclusive coupons from top brands all in one place. Browse a wide range of discounts, save your favorite coupons, and apply them directly on the brand’s website to enjoy instant savings. Start saving today with CouponHub – your ultimate destination for deals!"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "id": "1",
+      "image": "https://i.ibb.co.com/whv7sK8B/game-review.png",
+      "liveLink": "https://game-review-5c3bc.firebaseapp.com/",
+      "projectName": "Game Review",
+      "tools": ["React", "Node.js", "Express", "MongoDB"],
+      "description": "Game Review Hub is a dynamic web application built with React that allows users to add, update, and delete reviews for different games. Users can sign in with Firebase authentication, ensuring a secure and personalized experience. The platform provides an intuitive interface for gamers to share their opinions and discover reviews from others.",
+      "githubRepository": "https://github.com/zohir26/Game_Review.git",
+      "challenges": "Ensuring data consistency and handling concurrency issues when multiple users submit reviews at the same time. Additionally, managing the authentication and authorization for different user roles required complex logic.",
+      "futurePlans": "Integrate machine learning algorithms to provide personalized game recommendations based on user reviews and preferences. Additionally, plan to introduce social sharing features and real-time notifications."
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co.com/3ZhT1DM/car-rental.png",
+      "liveLink": "https://car-rental-f7654.web.app/",
+      "projectName": "Car Rental",
+      "tools": ["React", "Node.js", "MongoDB", "Firebase", "JavaScript"],
+      "description": "A full stack car rental website where users can browse and book cars for rent, while business owners can register and list their vehicles. The platform facilitates seamless booking, vehicle management, and user authentication for both renters and car providers.",
+      "githubRepository": "https://github.com/zohir26/Car-Rental-Client.git",
+      "challenges": "Integrating payment gateways securely and ensuring real-time availability updates for vehicles. Handling user data privacy and implementing robust authentication were also challenging aspects.",
+      "futurePlans": "Add a feature for user reviews and ratings for the cars and rental services. Plan to integrate a loyalty program for returning customers and expand the platform to include more rental locations."
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co.com/S4BfJ3LJ/Screenshot-12.png",
+      "liveLink": "https://couponpro-fd6de.firebaseapp.com/",
+      "projectName": "Coupon PRO",
+      "tools": ["React", "Firebase", "JavaScript"],
+      "description": "Discover and collect exclusive coupons from top brands all in one place. Browse a wide range of discounts, save your favorite coupons, and apply them directly on the brand’s website to enjoy instant savings. Start saving today with CouponHub – your ultimate destination for deals!",
+      "githubRepository": "https://github.com/zohir26/coupon.git",
+      "challenges": "Ensuring the validity and expiration dates of coupons were up-to-date and managing user traffic spikes during major sales events. Additionally, creating an easy-to-use interface that effectively organizes a large number of coupons was challenging.",
+      "futurePlans": "Introduce a recommendation system to suggest the best coupons based on user preferences and shopping history. Plan to partner with more brands to offer a wider variety of coupons and enhance the user experience with a mobile app."
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import Skills from './Layout/Skills.jsx';
 import Education from './Layout/Education.jsx';
 import Projects from './Layout/Projects.jsx';
 import Contact from './Layout/Contact.jsx';
+import ProjectDetails from './Layout/ProjectsDetails.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path:'/contact',
     element:<Contact></Contact>
+  },
+  {
+    path:'/project-details',
+    element:<ProjectDetails></ProjectDetails>
   },
 ]);
 createRoot(document.getElementById('root')).render(

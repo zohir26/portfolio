@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
+import { useNavigate } from "react-router-dom";
+
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     fetch("/projects.json")
@@ -10,6 +13,10 @@ const Projects = () => {
       .then((data) => setProjects(data.projects))
       .catch((error) => console.error("Error fetching projects:", error));
   }, []);
+
+  const handleViewDetails = (project) => {
+    navigate("/project-details", { state: { project } }); 
+  };
 
   return (
     <div className="p-8 bg-[#0a192f] text-gray-300 min-h-screen">
@@ -43,7 +50,7 @@ const Projects = () => {
                 <p className="text-gray-400 mb-2 flex-grow">{project.description}</p>
 
                 {/* Colorful Tools Section */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 justify-center items-center">
                   {project.tools.map((tool, i) => (
                     <span
                       key={i}
@@ -54,20 +61,14 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* View Live Button (always at the bottom) */}
+                {/* View Details Button (always at the bottom) */}
                 <div className="mt-auto">
-                  {project.liveLink ? (
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full block text-center bg-[#64ffda] text-[#0a192f] px-4 py-2 rounded hover:bg-[#4fc3a1]"
-                    >
-                      View Live
-                    </a>
-                  ) : (
-                    <p className="text-gray-500 text-center">Live link not available</p>
-                  )}
+                  <button
+                    onClick={() => handleViewDetails(project)} // Handle view details
+                    className="w-full block text-center bg-[#64ffda] text-[#0a192f] px-4 py-2 rounded hover:bg-[#4fc3a1]"
+                  >
+                    View Details
+                  </button>
                 </div>
               </div>
             </motion.div>

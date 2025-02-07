@@ -1,5 +1,6 @@
 import React from "react";
 import code from "../assets/carbon.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -31,9 +32,11 @@ const About = () => {
             </p>
 
             {/* Call to Action */}
+            <Link to='/contact'>
             <button className="px-4 sm:px-6 py-2 sm:py-3 mt-4 text-base sm:text-lg font-semibold bg-gradient-to-r from-pink-500 to-purple-600 rounded-full shadow-lg transition-all hover:scale-105 hover:from-purple-600 hover:to-pink-500">
               Let's Connect
             </button>
+            </Link>
           </div>
         </div>
       </div>

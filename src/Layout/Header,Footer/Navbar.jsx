@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <nav className=" flex items-center justify-center top-0 left-0  z-50 bg-gradient-to-r from-[#0f172a] to-[#1e293b] bg-opacity-90 shadow-md backdrop-blur-lg ">
       <div className="navbar container mx-auto px-6 py-4 flex items-center justify-between">
-        
+
         {/* Logo Section */}
         <div className="navbar-start">
           <a className="text-2xl font-bold text-white tracking-wide">
-            <Link to= '/'>Zohir</Link>
+            <Link to='/'>Zohir</Link>
           </a>
         </div>
 
@@ -33,20 +33,31 @@ const Navbar = () => {
               </svg>
             </button>
             <ul className="dropdown-content absolute right-0 mt-3 w-48 bg-[#1e293b] text-white rounded-md shadow-lg overflow-hidden">
-              <li className="hover:bg-pink-500 px-4 py-2 transition"><a href="#about">About</a></li>
-              <li className="hover:bg-pink-500 px-4 py-2 transition"><a href="#experience">Experience</a></li>
-              <li className="hover:bg-pink-500 px-4 py-2 transition"><a href="#education">Education</a></li>
-              <li className="hover:bg-pink-500 px-4 py-2 transition"><a href="#skills">Skills</a></li>
-              <li className="hover:bg-pink-500 px-4 py-2 transition"><a href="#projects">Projects</a></li>
+              <li className="hover:bg-pink-500 px-4 py-2 transition">
+                <Link to="#about">About</Link>
+              </li>
+              <li className="hover:bg-pink-500 px-4 py-2 transition">
+                <Link to="#experience">Experience</Link>
+              </li>
+              <li className="hover:bg-pink-500 px-4 py-2 transition">
+                <Link to="#education">Education</Link>
+              </li>
+              <li className="hover:bg-pink-500 px-4 py-2 transition">
+                <Link to="#skills">Skills</Link>
+              </li>
+              <li className="hover:bg-pink-500 px-4 py-2 transition">
+                <Link to="#projects">Projects</Link>
+              </li>
+
             </ul>
           </div>
         </div>
 
         {/* Resume Button */}
         <div className="navbar-end">
-          <a href="/resume.pdf" target="_blank" className="btn bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full transition">
+          <Link target='_blank' to="https://drive.google.com/file/d/1V9MVAYHZ0iBY8g5kf-2H1LKRmZQ3c1Qb/view?usp=sharing" target="_blank" className="btn bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full transition">
             Resume
-          </a>
+          </Link>
         </div>
 
       </div>

@@ -107,13 +107,13 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-4">
-            <Link>
+            <Link to='/contact'>
               <button className="px-4 sm:px-8 py-3 sm:py-6 md:px-10 md:py-4 text-sm sm:text-lg font-semibold bg-gradient-to-r from-pink-500 to-purple-600 rounded-full shadow-lg transition-all hover:scale-105 hover:from-purple-600 hover:to-pink-500">
                 Contact Me
               </button>
             </Link>
-            <Link to='https://drive.google.com/file/d/1V9MVAYHZ0iBY8g5kf-2H1LKRmZQ3c1Qb/view?usp=sharing'>
-              <button className="px-4 sm:px-8 py-3 sm:py-6 md:px-10 md:py-4 text-sm sm:text-lg font-semibold bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-lg transition-all hover:scale-105 hover:from-indigo-600 hover:to-blue-500">
+            <Link target='_blank' to='https://drive.google.com/file/d/1V9MVAYHZ0iBY8g5kf-2H1LKRmZQ3c1Qb/view?usp=sharing'>
+              <button className="px-4 sm:px-8 py-3 sm:py-6 md:px-10 md:py-4 text-sm sm:text-lg font-semibold bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-lg transition-all hover:scale-105 hover:from-indigo-600 hover:to-blue-500 ">
                 Download Resume
               </button>
             </Link>

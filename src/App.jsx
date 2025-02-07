@@ -17,12 +17,24 @@ function App() {
      <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#0f172a] to-[#1e293b] w-auto ">
      <Navbar></Navbar>
       <Hero></Hero>
-      <About></About>
+     <div id='about'>
+     <About></About>
+     </div>
+      <div id='skills'>
       <Skills></Skills>
+      </div>
+      <div id='experience'>
       <Experience></Experience>
-      <Education></Education>
+      </div>
+     <div id='education'>
+     <Education></Education>
+     </div>
+      <div id= 'projects'>
       <Projects></Projects>
+      </div>
+      <div id='contact'>
       <Contact></Contact>
+      </div>
       <Footer></Footer>
      </div>
     </>

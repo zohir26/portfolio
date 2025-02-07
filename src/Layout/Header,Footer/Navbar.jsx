@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* Resume Button */}
         <div className="navbar-end">
-          <Link target='_blank' to="https://drive.google.com/file/d/1V9MVAYHZ0iBY8g5kf-2H1LKRmZQ3c1Qb/view?usp=sharing" target="_blank" className="btn bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full transition">
+          <Link target='_blank' to="https://drive.google.com/file/d/1V9MVAYHZ0iBY8g5kf-2H1LKRmZQ3c1Qb/view?usp=sharing" className="btn bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full transition">
             Resume
           </Link>
         </div>

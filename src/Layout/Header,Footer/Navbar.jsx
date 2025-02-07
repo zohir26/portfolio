@@ -34,19 +34,19 @@ const Navbar = () => {
             </button>
             <ul className="dropdown-content absolute right-0 mt-3 w-48 bg-[#1e293b] text-white rounded-md shadow-lg overflow-hidden">
               <li className="hover:bg-pink-500 px-4 py-2 transition">
-                <Link to="#about">About</Link>
+                <a href="#about">About</a>
               </li>
               <li className="hover:bg-pink-500 px-4 py-2 transition">
-                <Link to="#experience">Experience</Link>
+                <a href="#experience">Experience</a>
               </li>
               <li className="hover:bg-pink-500 px-4 py-2 transition">
-                <Link to="#education">Education</Link>
+                <a href="#education">Education</a>
               </li>
               <li className="hover:bg-pink-500 px-4 py-2 transition">
-                <Link to="#skills">Skills</Link>
+                <a href="#skills">Skills</a>
               </li>
               <li className="hover:bg-pink-500 px-4 py-2 transition">
-                <Link to="#projects">Projects</Link>
+                <a href="#projects">Projects</a>
               </li>
 
             </ul>

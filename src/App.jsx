@@ -7,6 +7,7 @@ import Skills from './Layout/Skills'
 import Experience from './Layout/Experience'
 import Education from './Layout/Education'
 import Projects from './Layout/Projects'
+import Contact from './Layout/Contact'
 function App() {
  
 
@@ -20,6 +21,7 @@ function App() {
       <Experience></Experience>
       <Education></Education>
       <Projects></Projects>
+      <Contact></Contact>
      </div>
     </>
   )

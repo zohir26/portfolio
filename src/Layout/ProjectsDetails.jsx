@@ -40,16 +40,29 @@ const ProjectDetails = () => {
               ))}
             </div>
 
-            {project.github && (
+            {project.githubRepository && (
               <div className="mb-6">
                 <h4 className="text-xl font-semibold text-[#64ffda] mb-2">GitHub Repository</h4>
                 <a
                   href={project.githubRepository}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#64ffda] hover:underline text-lg"
+                  className="text-gray-400 hover:underline text-lg"
                 >
-                  {project.github}
+                  {project.githubRepository}
+                </a>
+              </div>
+            )}
+            {project.liveLink && (
+              <div className="mb-6">
+                <h4 className="text-xl font-semibold text-[#64ffda] mb-2">Live Link</h4>
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:underline text-lg"
+                >
+                  {project.liveLink}
                 </a>
               </div>
             )}
